@@ -1,12 +1,15 @@
 public class Degerlendirme {
+    // switch case ile bir değerin belirli aralıklarda olup olmadığını kontrol edemeyiz
+    // bu sebepten switch case kullanmak için 101 farklı case oluşturmamız gerekir, bu da verimli olmaz
+    // bu yüzden if-else zinciri kullandım.
     public static void main(String[] args) {
         int ogrenciNotu = 100;
 
         if (ogrenciNotu <= 0 || ogrenciNotu > 100) {
             System.out.println("Geçersiz puan girdiniz.");
         } else {
-            String harfNotu = null;
-            String mesaj = null;
+            String harfNotu = "";
+            String mesaj = "";
 
             if (ogrenciNotu >= 0 && ogrenciNotu < 35) {
                 harfNotu = "FF";
