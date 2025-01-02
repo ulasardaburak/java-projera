@@ -1,0 +1,6 @@
+int e = 12;
+boolean sonuc5 = (e > 10) && (e++ < 15);
+
+12 > 10 ve 13 < 15 olduğundan sonuc5 true dönecektir.
+bu kod bloğunun çıktısı true olur.
+
